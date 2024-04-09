@@ -102,6 +102,7 @@ section {
     width: 100%;
     height: 100%;
     object-fit: contain;
+   
 }
 
 .home-text span {
@@ -181,7 +182,7 @@ section {
     height: 45px;
     width: 45px;
     background: linear-gradient(130.08deg, #383528 0%, #191919 100%);
-    box-shadow: 0px 20px 40px #00000070;
+    box-shadow: 0px 20px 40px #555;
     border: 1px solid #3b3b3b;
     border-radius: 50%;
     color: var(--text-color);
@@ -192,6 +193,67 @@ section {
 
 .social i:hover {
     transform: translateY(-5px);
+}
+
+.about {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    gap: 20px;
+    background: rgba(0, 3, 5, 0.582);
+}
+
+.about-text h3 {
+    font-size: 25px;
+    text-align: Left;
+    text-transform: uppercase;
+}
+
+.about-text span {
+    color: var(--main-color);
+}
+
+.about-text p {
+    font-size: 18px;
+    margin: 25px 0 30px;
+    line-height: 30px;
+}
+
+.services {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    gap: 20px;
+    background-color: #00131c;
+   /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    */
+}
+
+.services-content h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: left;
+    padding-bottom: 40px;
+    color: blue;
+}
+
+.services-content h5 {
+    text-transform: uppercase;
+}
+
+.services-content p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0 30px;
+    line-height: 25px;
+}
+
+.foot {
+    font-weight: bold;
+    text-align: center;
+    
 }
 
 @media (max-width: 1850px) {
