@@ -466,12 +466,12 @@ section {
 
 .website img {
     width: 100%;
-    height: auto;
-    margin-bottom: 0;
+    height: 150px;
+    margin-bottom: auto;
 }
 
 .website {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
 }
 
 .site {
