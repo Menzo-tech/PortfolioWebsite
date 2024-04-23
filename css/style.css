@@ -471,11 +471,21 @@ section {
 }
 
 .website {
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
 }
 
 .site {
     width: 100%;
+}
+
+.experience .special div img {
+    width: 50px;
+    height: 40px;
+}
+
+.experience .special .skills img {
+    width: 100px;
+    height: 40px;
 }
 
 @keyframes img {
