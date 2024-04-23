@@ -235,7 +235,7 @@ section {
 .services-content h3 {
     text-transform: uppercase;
     font-size: 25px;
-    text-align: left;
+    text-align: center;
     padding-bottom: 40px;
     color: blue;
 }
@@ -248,6 +248,78 @@ section {
     font-family: Arial, Helvetica, sans-serif;
     margin: 5px 0 30px;
     line-height: 25px;
+}
+
+.work {
+    margin: 100px 0;
+    padding: 30px;
+}
+
+.stretch h3 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.website {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 10px;
+    
+}
+
+.site {
+    border: solid 3px;
+    border-color: #00131c;
+    padding-bottom: 12px;
+}
+
+.site h3{
+    padding-left: 10px;
+}
+
+.site img {
+    width: 350px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.website .site {
+    margin: auto;
+}
+
+.experience h5 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.experience div {
+    text-align: center;
+}
+
+.special .skills{
+    margin: auto;
+}
+.experience h6 {
+    margin-top: 12px;
+}
+
+.special {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 150px;
+}
+
+.experience .special div img {
+    width: 120px;
+    height: 100px;
+}
+
+.skills img {
+    width: 220px;
+    height: 100px;
 }
 
 .foot {
@@ -390,6 +462,20 @@ section {
 .home-img img {
     animation: imgg 2s ease-in-out infinite;
     animation-delay: 2s;
+}
+
+.website img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.website {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.site {
+    width: 100%;
 }
 
 @keyframes img {
